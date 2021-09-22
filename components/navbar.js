@@ -8,7 +8,7 @@ export function NavTop(){
     return(
       <Navbar className={StyleNav.navTop}>
         <Container>
-            <Col md={{ span: 4, offset: 8 }} className="text-end">
+            <Col xs md={{ span: 4, offset: 8 }} className="text-end">
             <FontAwesomeIcon icon={faLock}  />
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
